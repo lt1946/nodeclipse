@@ -1,88 +1,278 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset='utf-8'>
-
-  <title>lambgao/nodeclipse @ GitHub</title>
-
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #8CC84B;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000000;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #7337b4; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #7337b4; }
-    h3 { text-align: center; color: #7337b4; }
-    a { color: #7337b4; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
+	<title>Noeclipse</title>
+ 
+    <meta name="author" content="Lamb" />
+    <meta name="keywords" content="nodeclipse,node.js,eclipse,ide,nodejs" />
+ 	<meta name="description" content="nodeclipse" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <!-- [template css] begin -->
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="css/960.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print" /> 
+    <!--[if IE]>
+        <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection" />
+    <![endif]-->
+    <!-- [template css] end -->
+    
+    <!-- [favicon] begin -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<!-- [favicon] end -->
+	
+	<!-- Some hacks for the dreaded IE6 ;) -->
+    <!--[if lt IE 7]>
+        <link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen" />
+        <script type="text/javascript">
+            var clear="images/clear.gif";
+        </script>
+        <script type="text/javascript" src="js/unitpngfix.js"></script>
+    <![endif]-->
+    
+	<script type="text/javascript" src="js/mootools-yui-compressed.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script> 
+    <script type="text/javascript" charset="utf-8">jQuery.noConflict();</script>
+    
+    <!-- START SCROLL -->
+	<script src="js/scroll.js" type="text/javascript"></script>
+	<!-- END SCROLL -->
+	
+	<!-- START CUFON -->
+	<script type="text/javascript" src="js/cufon-yui.js"></script>
+	<script type="text/javascript" src="js/dustismo_400.font.js"></script>
+	<script type="text/javascript">
+       Cufon.replace('h1,ul#nav,h2,h4', {
+           hover: true,
+           fontFamily: 'dustismo' 
+       });
+    </script>
+	<!-- END CUFON -->
+	
+	<!-- START VALIDATE FORM CONTACT -->
+	<script type="text/javascript" src="js/form-contact-validate.js"></script>
+	<!-- END VALIDATE FORM CONTACT -->
 </head>
 
-<body>
-  <a href="https://github.com/lambgao/nodeclipse"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+<body id="home-page">
+	
+	<!-- START TOP FADE -->
+    <div class="top-bg">&nbsp;</div>
+    <!-- END TOP FADE -->
+    
+    <!-- START BOTTOM FADE -->
+    <div class="bottom-bg">&nbsp;</div>
+    <!-- END BOTTOM FADE -->
+    
+    <!-- START HEADER -->
+    <div class="container_12">
+        
+        <!-- START NAVIGATION SECTION -->
+        <div class="grid_3 alpha">
+        
+            <div class="fixed-column">
+                
+                <!-- START LOGO -->
+                <a href="index.htm" title="home page">
+                    <img src="images/logo.png" alt="logo" class="logo" />
+                </a>
+                <!-- END LOGO -->
+                
+                <!-- START NAV -->
+                <ul id="nav">
+                    <li><a href="#home-page" title="Home page">home</a></li>
+                    <li><a href="#about-page" title="about">features</a></li>
+                    <li><a href="#portfolio-page" title="portfolio">download</a></li>
+                    <li><a href="#contact-page" title="contatti">contact</a></li>
+                </ul>
+                <!-- END NAV -->
+                
+                <!-- START FOLLOW ME -->
+                <a href="#" title="follow me on twitter">
+                    <img src="images/follow-me.gif" alt="follow-me" class="follow-me" />
+                </a>
+                <!-- END FOLLOW ME -->
+                
+                <!-- START SEND ME AN EMAIL -->
+                <a href="mailto:lamb52gao@gmail.com" title="Send me an email">
+                    <img src="images/send-mail.gif" alt="send mail" />
+                </a>
+                <!-- END SEND ME AN EMAIL -->
+                
+                <!-- START ADD ME ON SKYPE -->
+                <a href="#" title="Add me on Skype">
+                    <img src="images/add-on-skype.png" alt="add skype" />
+                </a>
+                <!-- END ADD ME ON SKYPE -->
+                
+                <!-- DO NOT REMOVE: START CREDITS -->
+                <div class="credits">
+                    powered by
+                    <a href="http://www.yourinspirationweb.com/" title="The Community of Inspiration Dedicated to Webdesign">
+                         YIW
+                    </a>
+                </div>
+                <!-- END CREDITS -->
+    
+            </div>
+        
+        </div>
+        <!-- END NAVIGATION SECTION -->
+        
+        <div class="grid_9 omega right-column">
+        
+            <!-- START HOME PAGE -->
+            <div class="home">
+                <!--<img src="images/text-home.jpg" alt="contenuto-home" />-->
+                <h1>
+                <span class="nodejsgreen">Node</span><span class="eclipseblue">clipse</span>
+                 is an plugin that adds IDE functionality to the 
+                 <span class="eclipseblue">Eclipse</span> 
+                 platform for the <span class="nodejsgreen">Node.js</span>. 
+                </h1>
+                <h4 id="homeh4">The purpose of Nodeclipse is to create an environment in which development of Node.js is easy for a beginner to intermediate user. Development is slow, but ongoing. If you would like to help out, please leave a comment stating so in the Nodeclipse forum. </h4>
+                <!--<img src="images/arrow-home.png" alt="arrow" class="arrow" />-->
+            </div>
+            <div class="home-bottom-bg"></div>
+            <!-- END HOME PAGE -->
+            
+            <!-- START ABOUT PAGE -->
+            <a id="about-page"></a>
+            
+            <div class="about">
+                    
+                <div class="grid_5 alpha">
+                
+                    <div class="container-about">
+                        <h2>Features</h2>
+                        
+                        <p>
+                            In the About page you can insert some information on yourself: title of study, 
+							eventual training courses attended, certificates, diplomas.
+                        </p>
+                        
+                        <p>
+                            Or you can describe your dreams, your work experiences... in a few words everything 
+							that can represent <span>you on the web</span> in a decisive and original way.
+                        </p>
+                        
+                        <p>
+                            Insert a small picture or even a <span>cartoon</span> just like the one I have inserted: nowdays illustrations are the trend!
+                        </p>
+                        <p>
+                            Insert a small picture or even a <span>cartoon</span> just like the one I have inserted: nowdays illustrations are the trend!
+                        </p>
+                        <p>
+                            Insert a small picture or even a <span>cartoon</span> just like the one I have inserted: nowdays illustrations are the trend!
+                        </p>
+                        <p>
+                            Insert a small picture or even a <span>cartoon</span> just like the one I have inserted: nowdays illustrations are the trend!
+                        </p>
+                    </div>
+                </div>
+                <!--
+                <!-- START AVATAR -->
+                <!--<div class="grid_4 omega avatar-image">-->
+                <!--    <img src="images/avatar.jpg" alt="avatar" class="avatar" />-->
+                <!--</div>-->
+                <!-- END AVATAR -->
+                
+                <div class="clear"></div>
+            </div>
+            <div class="about-bottom-bg"></div>
+            <!-- END ABOUT PAGE -->
+            
+            <!-- START PORTFOLIO PAGE -->
+            <a id="portfolio-page"></a>
+            
+            <div class="portfolio">
+            	<div class="grid_4 alpha">
+	                <div class="container-portfolio">
+	                    <h2>Download</h2>
+                    </div>
+                </div>
+                
+                <!-- START PORTFOLIO QUOTE -->
+                <div class="grid_4 omega">
+                	<div class="portfolio-quote">
+                		<h4>I hope you like my work and my work speaks for me.</h4>
+                	</div>
+                </div>
+                <!-- END PORTFOLIO QUOTE -->
+                
+                <div class="clear"></div>
+                
+                <div class="container-portfolio">
+                    <p class="updatesite">Update Site : http://www.nodeclipse.org/updates</p>
+                </div>
+            </div>
+            <div class="portfolio-bottom-bg"></div>
+            <!-- END PORTFOLIO PAGE -->
+            
+            <!-- START CONTACT PAGE -->
+            <a id="contact-page"></a>
+            
+            <div class="contact">
+            
+                <div class="grid_5 alpha">
+                    
+                    <div class="container-contact">
+                        <h2>Contact</h2>
+                        
+                        <div id="log"></div>
+                        
+                        <form id="contacts" method="post" action="include/inc_sendmail.php">
+                            <fieldset>
+                                <input tabindex="1" type="text" id="visitor" name="visitor" value="Name" onfocus="if (this.value=='Name') this.value='';" onblur="if (this.value=='') this.value='Name';" class="text name" />
+                                <br />
+                                
+                                <input tabindex="3" type="text" id="visitormail" name="visitormail" value="E-mail" onfocus="if (this.value=='E-mail') this.value='';" onblur="if (this.value=='') this.value='E-mail';" class="text mail" />
+                                <br />
+                                
+                                <textarea tabindex="4" id="notes" name="notes" cols="30" rows="3" onfocus="if (this.value=='Message') this.value='';" onblur="if (this.value=='') this.value='Message';" class="text message">Message</textarea>
+                                <br />
 
-  <div id="container">
-
-    <div class="download">
-      <a href="https://github.com/lambgao/nodeclipse/zipball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
-      <a href="https://github.com/lambgao/nodeclipse/tarball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
+                            	<input class="button" name="Send" value="Send e-mail" type="button" />
+                            	
+                        	</fieldset>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="grid_4 omega contact-info">
+                    <p class="title">Estimates, questions, information?</p>
+                    
+                    <p>
+                        Not hesitate to contact me.<br/>
+                         Send email or contact me on QQ.
+                    </p>
+                    
+                    <img src="images/logo.small.png" alt="logo" class="contact-logo" />
+                    
+                    <h3>Lamb</h3>
+                    
+                    <address>Tianchao</address>
+                    
+                    <p class="right">
+                        <span>Email.</span>lamb52gao$gmail.com<br/>
+                        <span>QQ.</span> 61357158
+                    </p>
+                </div>
+                
+                <div class="clear"></div>
+            </div>
+            
+            <div class="contact-bottom-bg"></div>
+            <!-- END CONTACT PAGE -->
+            
+        </div>
+        
+        <div class="clear"></div>
     </div>
-
-    <h1><a href="https://github.com/lambgao/nodeclipse">nodeclipse</a>
-      <span class="small">by <a href="https://github.com/lambgao">lambgao</a></span></h1>
-
-    <div class="description">
-      nodeclipse
-    </div>
-
     
-
-    
-
-    
-
-    
-
-    
-      <h2>Authors</h2>
-      <p>lamb (lamb52gao@gmail.com)<br/>oncereply (oncereply@gmail.com)<br/>      </p>
-    
-
-    
-      <h2>Contact</h2>
-      <p>lamb (lamb52gao@gmail.com)<br/>      </p>
-    
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="https://github.com/lambgao/nodeclipse/zipball/master">zip</a> or
-      <a href="https://github.com/lambgao/nodeclipse/tarball/master">tar formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/lambgao/nodeclipse</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="https://github.com/lambgao/nodeclipse">lambgao/nodeclipse</a>
-    </div>
-
-  </div>
-
+	<!--[if IE]>
+      <script type="text/javascript"> Cufon.now(); </script>
+    <![endif]-->  
 </body>
 </html>
