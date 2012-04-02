@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description name="Nodeclipse" url="http://www.nodeclipse.org/updates">
-      Nodeclipse
-   </description>
-   <feature url="features/org.nodeclipse.debug.feature_0.1.0.jar" id="org.nodeclipse.debug.feature" version="0.1.0">
-      <category name="Nodeclipse"/>
-   </feature>
-   <feature url="features/org.nodeclipse.debug.feature_0.1.1.jar" id="org.nodeclipse.debug.feature" version="0.1.1">
-      <category name="Nodeclipse"/>
-   </feature>
-   <feature url="features/org.nodeclipse.debug.feature_0.1.2.jar" id="org.nodeclipse.debug.feature" version="0.1.2">
-      <category name="Nodeclipse"/>
-   </feature>
    <feature url="features/org.nodeclipse.feature_0.1.3.jar" id="org.nodeclipse.feature" version="0.1.3">
       <category name="Nodeclipse"/>
    </feature>
