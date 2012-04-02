@@ -9,5 +9,8 @@
    <feature url="features/org.nodeclipse.debug.feature_0.1.1.jar" id="org.nodeclipse.debug.feature" version="0.1.1">
       <category name="Nodeclipse"/>
    </feature>
+   <feature url="features/org.nodeclipse.debug.feature_0.1.2.jar" id="org.nodeclipse.debug.feature" version="0.1.2">
+      <category name="Nodeclipse"/>
+   </feature>
    <category-def name="Nodeclipse" label="Nodeclipse"/>
 </site>
