@@ -6,5 +6,8 @@
    <feature url="features/org.nodeclipse_0.1.4.jar" id="org.nodeclipse" version="0.1.4">
       <category name="Nodeclipse"/>
    </feature>
+   <feature url="features/org.nodeclipse_0.1.5.jar" id="org.nodeclipse" version="0.1.5">
+      <category name="Nodeclipse"/>
+   </feature>
    <category-def name="Nodeclipse" label="Nodeclipse"/>
 </site>
